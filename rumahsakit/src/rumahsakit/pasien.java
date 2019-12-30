@@ -16,7 +16,7 @@ public class pasien {
     private dokter dokter; 
     private obat obat;
     private penyakit penyakit;
-    private pasienlama pasienlama;
+   // private pasienlama pasienlama;
 
     public pasien() {
         this.namaPasien = "Supri";
@@ -35,8 +35,8 @@ public class pasien {
         penyakit.setNamaPenyakit("Panas Dingin");
         penyakit.setGejala("Panas Dingin, Sakit Hati");
         
-        this.pasienlama = new pasienlama();
-        pasienlama.setNoKartu(566);
+    //    this.pasienlama = new pasienlama();
+     //   pasienlama.setNoKartu(566);
     }
 
     public void cetakPasien() {
@@ -46,6 +46,6 @@ public class pasien {
         penyakit.cetakPenyakit();
         obat.cetakObat();
         dokter.cetakDokter();
-        pasienlama.cetakNoKartu();
+      //  pasienlama.cetakNoKartu();
     }
 }

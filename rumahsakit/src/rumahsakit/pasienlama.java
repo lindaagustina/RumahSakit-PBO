@@ -21,6 +21,7 @@ public class pasienlama extends pasien{
     }
     
     public void cetakNoKartu() {
+        this.noKartu = 2;
         System.out.println("\nNo Kartu:" + this.noKartu);
     }
 }
